@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Dipika Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Dr. Dipika Dhakane</h1>
+            <p>Committed to Your Health and Well-being</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="section">
+        <div class="container">
+            <h2>Welcome to Dipika's Website</h2>
+            <img src="doctor.jpg" alt="Dr.Dipika Dhakane" class="doctor-image">
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Dr. Dipika Dhakane</h2>
+            <p>Dr.Dipika Dhakane, a distinguished BHMS final year student. Known for her academic excellence, she consistently ranks among the top 3 in her class. In addition to her rigorous studies, Dipika skillfully manages numerous cases, demonstrating her exceptional capability and dedication to the field of homeopathic medicine.</p>
+            <img src="clinic.jpg" alt="Clinic" class="clinic-image">
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Skin Disease</li>
+                <li>Height Phobia Treatment</li>
+                <li>Cracked Heels Treatment</li>
+                <li>Digestions Problem</li>
+                <li>And Many More</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="feedback" class="section">
+        <div class="container">
+            <h2>Patient Feedback</h2>
+            <form id="feedback-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" required>
+                
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+            <div id="feedback-display">
+                <!-- Feedback will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: dipika.dhakane@gmail.com</p>
+            <p>Instagram:"homoeopath_dipikaa</p>
+            <p>You Tube: <a href="https://youtube.com/@dipik4201?si=zWzUgqa5lRN6r86I" target="_blank">YouTube</a>!</p>
+            
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
